@@ -9,7 +9,7 @@ type Props = {
   author: Author;
 };
 
-export function PostHeader({ title, coverImage, date, author }: Props) {
+export function PostHeader({ title, coverImage,}: Props) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
